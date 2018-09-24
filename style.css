@@ -1,0 +1,21 @@
+.fullContainer {
+  width: 100vw;
+  height: 100vh;
+  border: 3px solid blue;
+}
+
+.halfContainer {
+  width: 50vw;
+  height: 50vh;
+  border: 3px solid red;
+}
+
+.threeQContainer {
+  width: 75%;
+  height: 75%;
+  border: 3px solid green;
+}
+
+.bigFont {
+  font-size: 2rem;
+}
