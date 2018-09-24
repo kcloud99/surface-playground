@@ -24,3 +24,12 @@
   border: 1px solid black;
   text-align: center;
 }
+
+.fixedGrid {
+  text-align: center;
+  border: 1px solid red;
+}
+
+.fixedGridContainer {
+  width: 100%;
+}
