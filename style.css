@@ -19,3 +19,8 @@
 .bigFont {
   font-size: 2rem;
 }
+
+.fluidGrid {
+  border: 1px solid black;
+  text-align: center;
+}

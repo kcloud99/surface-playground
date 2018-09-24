@@ -9,32 +9,31 @@
   <!-- Boostrap 2 -->
   <link href="https://stackpath.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet"
     integrity="sha384-4FeI0trTH/PCsLWrGCD1mScoFu9Jf2NdknFdFoJhXZFwsvzZ3Bo5sAh7+zL8Xgnd" crossorigin="anonymous">
-  <!-- <script src="https://stackpath.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js" integrity="sha384-vOWIrgFbxIPzY09VArRHMsxned7WiY6hzIPtAIIeTFuii9y3Cr6HE6fcHXy5CFhc"
-    crossorigin="anonymous"></script> -->
 
   <!-- Boostrap 3 -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-    crossorigin="anonymous"></script> -->
-  <link rel="stylesheet" href="style.css">
 
-  <title>MS Surface Playground</title>
+  <link rel="stylesheet" href="../style.css">
+
+  <title>Grid Page</title>
 </head>
 
 <body>
-  <div class="container-fluid">
-    <div class="row-fluid">
-      <div class="span2">
-        <a href="Kyle/index.html">Go to Kyle's page</a>
-        <br />
-        <a href="Jeffrey/index.html">Go to Jeffrey's page</a>
-        <br />
-        <a href="Grids/index.html">Go to the GRID page</a>
-      </div>
-      <div class="span10">
-        <h1>This is going to be the playground</h1>
-        <h3>Use Bootstrap to design it</h3>
+  <div class="container-fluid fluidGrid">
+    <div class="row-fluid fluidGrid">
+      <div class="span12 fluidGrid">
+        Fluid 12
+        <div class="row-fluid fluidGrid">
+          <div class="span6 fluidGrid">
+            Fluid 6
+            <div class="row-fluid fluidGrid">
+              <div class="span6 fluidGrid">Fluid 6</div>
+              <div class="span6 fluidGrid">Fluid 6</div>
+            </div>
+          </div>
+          <div class="span6 fluidGrid">Fluid 6</div>
+        </div>
       </div>
     </div>
   </div>
